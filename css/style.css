@@ -1,0 +1,221 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'TT Lakes';
+    background-color: rgba(248, 248, 248, 1)
+
+}
+
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+
+.header {
+    margin: 0;
+    background: linear-gradient(to right, #F8F8F8 0%, #FFFFFF 98.61%);
+    height: 80px;
+   
+    
+    margin-left: 32px;
+
+}
+.title {
+    margin-top: 0;
+    padding-top: 16px;
+    width: 100%;
+    height: 48px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    text-transform: uppercase;
+}
+
+
+.swiper-slide, .second__list_item {
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(234, 234, 234, 1);
+    border-radius: 6px;
+    width: 240px;
+    height: 72px;
+    position: relative;
+    left: -20px;
+
+}
+.swiper__card_link, .card__link {
+    position:absolute;
+    background-image: url("/image/go.svg");
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    margin-left: 180px;
+    margin-top: 16px;
+}
+
+
+.content__swiper {
+    overflow: hidden;
+}
+
+
+
+
+.swiper-container{
+    height: 72px;
+    width: 240px;
+    
+    
+
+    
+}
+.content__pagination {
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+
+
+.swiper__slide--lenovo,
+.second__list_item--lenovo {
+    background-image: url("/image/lenovo.svg");
+    background-repeat: no-repeat;
+    background-position: 16px 20px;
+}
+.swiper__slide--samsung,
+.second__list_item--samsung {
+    background-image: url("/image/samsung.svg");
+    background-repeat: no-repeat;
+    background-position: 16px 17px;
+}
+.swiper__slide--apple,
+.second__list_item--apple {
+    background-image: url("/image/apple.svg");
+    background-repeat: no-repeat;
+    background-position: 16px 12px;
+}
+.swiper__slide--viewsonic,
+.second__list_item--viewsonic {
+    background-image: url("/image/viewsonic.svg");
+    background-repeat: no-repeat;
+    background-position: 14px 26px;
+}
+.swiper__slide--boch,
+.second__list_item--boch {
+    background-image: url("/image/boch.svg");
+    background-repeat: no-repeat;
+    background-position: 16px 22px;
+}
+.swiper__slide--hp,
+.second__list_item--hp {
+    background-image: url("/image/hp.svg");
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+}
+.swiper__slide--acer,
+.second__list_item--acer {
+    background-image: url("/image/acer.svg");
+    background-repeat: no-repeat;
+    background-position: 16px 24px;
+}
+.swiper__slide--sony,
+.second__list_item--sony {
+    background-image: url("/image/sony.svg");
+    background-repeat: no-repeat;
+    background-position: 14px 23px;
+    
+}
+@media(max-width: 767px) {
+    .content__swiper {
+     display: block;
+    }
+    .content__list {
+     display: none;
+    }
+     
+     
+ }
+@media(min-width: 768px) {
+    .content__pagination {
+        display: none;
+    }
+   .content__swiper {
+    display: none;
+   }
+   .content__list {
+    display: block;
+    height: 300px;
+    
+   }
+    .header {
+        height: 56px;
+    }
+   .second__list {
+    margin-top: 16px;
+    display:  flex;
+    flex-wrap: wrap;
+    
+    
+
+   }
+   .second__list_item {
+    width: 224px ;
+    height: 72px ;
+    margin-left: 16px;
+    margin-bottom: 16px;
+    
+   }
+   .hidden-item {
+    display: none;
+   }
+  
+   .next__more {
+    background-image: url("/image/expand.svg");
+    background-repeat: no-repeat;
+    padding-left: 35px;
+    color: black;
+    width: 150px;
+    margin-left: 30px;
+    
+    }
+
+
+
+   .hide__more {
+    padding-left: 60px;
+    position: relative;
+    top: -50px;
+    color: black;
+
+    
+   }
+    .expendUp {
+    background-image: url("/image/expand.svg");
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: -10px;
+    left: 30px;
+
+}
+
+}
+
+@media(min-width: 1120px) {
+    .hidden-item {
+        display: block;
+       }
+    .hidden-second {
+        display: none;
+    }
+
+}
+
+    
+
+
+
